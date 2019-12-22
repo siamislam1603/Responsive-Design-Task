@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="CSS/mystylesheet.css"/>
+</head>
+<body>
+    <section id="menu">
+        <div class="container">
+            <div class="row mt-2">
+                <!--Left Side Menu-->
+                <div class="col-lg-6">
+                    <div class="box-padding">
+                    <div class="row">
+                        <div class="col-md-9 mb-2">
+                            <button type="button" class="btn btn-light d-inline-block">
+                                <ion-icon name="folder" class="icon-align"></ion-icon>
+                                Open Hold Sales
+                            </button>
+                            <div class="d-inline-block ml-1">
+                                <select name="language" class="form-control">
+                                    <option>English</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ml-auto d-inline-block">
+                            <button type="button" class="btn btn-light">
+                                <ion-icon name="calculator" class="icon-align"></ion-icon>
+                                Calculator
+                            </button>
+                        </div>
+                    </div>
+                    <!--left side box-->
+                    <div class="row mt-3 bg-white py-2">
+                        <div class="col-md-6 mb-2">
+                            <select name="language" class="form-control">
+                                <option>Select Employee</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <select name="language" class="form-control">
+                                <option>Walk-In-Customer</option>
+                            </select>
+                        </div>
+                        <!--Table-->
+                        <div class="table-responsive pb-5">
+                            <table class="table table-borderless">
+                                <thead class="bg-info">
+                                <tr>
+                                    <th scope="col">Item</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty/Amt</th>
+                                    <th scope="col">Discount</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><ion-icon name="create"></ion-icon>
+                                            Team C175 32GB 3.0 USb Pendrive(017)</td>
+                                        <td>$6.00</td>
+                                        <td><ion-icon name="remove-circle"></ion-icon>
+                                        3.00
+                                        <ion-icon name="add-circle"></ion-icon>
+                                        BAGS
+                                        </td>
+                                        <td>
+                                            <input placeholder="Amt or %" class="input-width"/>
+                                        </td>
+                                        <td>
+                                            $18.00
+                                            <ion-icon name="close-circle"></ion-icon>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><ion-icon name="create"></ion-icon>
+                                            Antec A40 Pro CPU Cooler(012)</td>
+                                        <td>$20.00</td>
+                                        <td><ion-icon name="remove-circle"></ion-icon>
+                                        1.00
+                                        <ion-icon name="add-circle"></ion-icon>
+                                        BAGS
+                                        </td>
+                                        <td>
+                                            <input placeholder="Amt or %" class="input-width"/>
+                                        </td>
+                                        <td>
+                                            $20.00
+                                            <ion-icon name="close-circle"></ion-icon>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row border border-light">
+                        <div class="col-md-8">Total Item: 2</div>
+                        <div class="col-md-4">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    Sub Total
+                                </div>
+                                <div class="col-md-6">
+                                    $38.00
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    Discount
+                                </div>
+                                <div class="col-md-6">
+                                    <input placeholder="Amt or %" class="input-width"/>
+                                    VAT $5.70
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    Total Discount
+                                </div>
+                                <div class="col-md-6">
+                                    $0.00
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    Shipping/
+                                    <br/>
+                                    Other
+                                </div>
+                                <div class="col-md-6">
+                                    <input placeholder="Amt or %" class="input-width"/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row bg-info">
+                        <div class="col-md-8"></div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-6">Total Payable</div>
+                                <div class="col-md-6">
+                                    $43.70
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bg-white py-2">
+                        <div class="col-md-4 mb-2">
+                            <button type="button" class="btn btn-secondary d-inline-block w-100">
+                                <ion-icon name="close" class="icon-align"></ion-icon>
+                                Cancel
+                            </button>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <button type="button" class="btn btn-secondary d-inline-block w-100">
+                                <ion-icon name="hand" class="icon-align"></ion-icon>
+                                Hold
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-secondary d-inline-block w-100">
+                                <ion-icon name="archive" class="icon-align"></ion-icon>
+                                Payment
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <!--Right Side Menu-->
+                <div class="col-lg-6">
+                    <div class="box-padding">
+                    <div class="row right-menu">
+                        <button type="button" class="btn btn-light d-inline-block mr-auto mb-2">
+                            <ion-icon name="undo" class="icon-align"></ion-icon>
+                            Your All Sales
+                        </button>
+                        <button type="button" class="btn btn-light d-inline-block mr-auto mb-2">
+                            <ion-icon name="close" class="icon-align"></ion-icon>
+                            Register
+                        </button>
+                        <button type="button" class="btn btn-warning d-inline-block mr-auto mb-2">
+                            <ion-icon name="speedometer" class="icon-align"></ion-icon>
+                            Dashboard
+                        </button>
+                        <button type="button" class="btn btn-light d-inline-block mb-2">
+                            <ion-icon name="log-out" class="icon-align"></ion-icon>
+                            Logout
+                        </button>
+                    </div>
+                    <div class="row bg-light p-2 mt-3">
+                        <div class="col-md-6 input-group mb-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-light"><ion-icon name="search"></ion-icon></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Name or Code or Category" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="col-md-6 input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-light"><ion-icon name="barcode"></ion-icon></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Barcode" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="row bg-light">
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                All
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Flour
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Oil
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Computer<br/>Shop<br/>Service
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Mobile Shop
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Watch Shop
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Cosmetic<br/>Shop
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Fashion Shop
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Pharmacy
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Departmental<br/>Store
+                            </button>
+                            <button type="button" class="btn btn-info w-100 mb-1">
+                                Jewelry Shop
+                            </button>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$6.00</h6>
+                                        <img src="Images/1.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">TEAM C175 32GB USB Pendrive(17)</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$12.00</h6>
+                                        <img src="Images/2.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">Logitech Z120 Stereo Speaker(016)</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$22.00</h6>
+                                        <img src="Images/3.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">MaxGreen 2809Bk Casing(014)</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$38.00</h6>
+                                        <img src="Images/4.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">Speed HS1701 17 Inch Monitor</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$50.00</h6>
+                                        <img src="Images/5.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">Toshiba 1TB SATA Laptop HDD(010)</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$20.00</h6>
+                                        <img src="Images/6.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">Antec A40 Pro CPU Cooler(012)</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$26.00</h6>
+                                        <img src="Images/7.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">Motherboard</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$25.00</h6>
+                                        <img src="Images/8.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">ADATA 8GB Ram</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="collection-block">
+                                        <h6 class="bg-info py-1 text-center mb-0">$3000.00</h6>
+                                        <img src="Images/9.jpg" alt="Hello" class="collection-img"/>
+                                        <h6 class="bg-info text-center p-1">Canon Hd Camera</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>    
+
+    <!---->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
